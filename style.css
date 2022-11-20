@@ -33,100 +33,6 @@ body{
     display: none;
 }
 
-@media (max-width:1080px){
-
-    
-#home .texto h2{
-    font-size: 2.6em;
-    width: 100%;
-    font-weight: 700;
- 
-}
-
-#home .texto p{
-    font-size: .9em;
-    font-weight: 300;
-    width: 100%;
-    margin-top: 10px;
-}
-
-#home .texto-inicial{
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-    .slide-inicial{
-        display: none;
-    }
-
-    .btn-cta{
-        text-align: center;
-        margin: 0;
-    }
-
-    header .checkbtn{
-        display: block;
-        font-size: 25px;       
-        cursor: pointer; 
-        margin-left: 50px;
-    }
-
-    #check{
-        display: none;
-    }
-
-    header nav{
-        width: 100%;
-        height: 100vh;
-        position: fixed;
-        top: -100%;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        background-color: var(--cordefundo);
-        text-align: center;
-        gap: 0;        
-    }
-
-    header nav a {
-        color:white;
-        border: none;
-    }
-
-    header nav a:hover{
-        background-color: var(--corprincipal);
-        color: white;
-        border: none;
-    }
-
-    #check:checked ~ nav{
-        top: 100px;
-        transition: .5s;
-    }
-
-    #brinquedos main{
-        width: 100%;
-    }
-
-    #brinquedos .container-brinquedos{
-        width: 100%;
-    }
-    #brinquedos .card-brinquedos{
-        width: 100%;
-    }
-}
-
-
-html{
-    scroll-behavior: smooth;
-}
-
-main{
-    width: 100%;
-
-}
- 
 .barra-home{
     width: 100%;
     display: flex;
@@ -142,7 +48,6 @@ main{
 }
 
 .navegacao{
-    min-width: 300px;
     height: 100%;
     display: flex;
     gap: 50px;
@@ -175,9 +80,8 @@ main{
     text-align: right;
 }
 
-#home .texto-inicial{
-    width: 40%;
-    min-width: 450px;
+#home .texto-inicial{   
+    width: 50%;
  
 }
 
@@ -192,9 +96,7 @@ main{
 #home .texto h2{
     font-size: 2.6em;
     width: 100%;
-    max-width: 600px;
-    min-width: 450px;
-    font-weight: 700;
+ 
  
 }
 
@@ -202,9 +104,7 @@ main{
     font-size: .9em;
     font-weight: 300;
     width: 100%;
-    max-width: 600px;
-    min-width: 450px;
-    margin-top: 10px;
+   
 }
 
  .btn-cta{
@@ -393,7 +293,7 @@ footer p,i,h5{
 
 #brinquedos main{
     width: 75%;
-    min-width: 500px;
+    min-width: 480px;
     margin: 1px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
     padding-bottom: 50px;
