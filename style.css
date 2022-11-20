@@ -354,7 +354,7 @@ footer p,i,h5{
 .container-brinquedos a{
     background-color: var(--cordestaque2);
     box-shadow: 0px 0px 10px var(--cordestaque2);
-    padding: 8px 16px;
+    padding: 8px ;
     color: #fff;
     text-align: center;
     border-radius: 10px;
