@@ -147,28 +147,28 @@ body{
         background-image: url('imagens/brinquedo1.jpg');
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: right center;
+        background-position: center center;
     }
 
     25%{
         background-image: url('imagens/brinquedo2.jpg');
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: right center;
+        background-position: center center;
     }
 
     50%{
         background-image: url('imagens/brinquedo3.jpg');
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: right center;
+        background-position: center center;
     }
 
     100%{
         background-image: url('imagens/brinquedo4.jfif');
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: right center;
+        background-position: center center;
     }
 }
 
