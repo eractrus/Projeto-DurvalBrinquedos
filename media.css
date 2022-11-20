@@ -25,7 +25,7 @@
 @media (max-width:1080px){
 
     #home .container-inicial{
-        height: 100vh;
+        height: 80vh;
         padding: 40px 0;
     }
 
@@ -41,8 +41,15 @@
         z-index: 2;
     }
 
+    #home .texto p{
+        margin: 10px auto;
+        text-align: center;
+        width: 340px;
+    }
+
     #home .slide-inicial{
         width: 100%;
+        height: 40vh;
         margin-bottom: 20px;
         z-index: 3;
     }
@@ -69,7 +76,8 @@
         flex-direction: column;
         background-color: var(--cordefundo);
         text-align: center;
-        gap: 0;        
+        gap: 0;   
+           
     }
 
     header nav a {
@@ -86,6 +94,7 @@
     #check:checked ~ nav{
         top: 100px;
         transition: .5s;
+        z-index: 4; 
     }
 
     #brinquedos main{
