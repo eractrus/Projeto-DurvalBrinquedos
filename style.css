@@ -310,7 +310,7 @@ footer p,i,h5{
 
 #brinquedos .card-brinquedos{
     width: 500px;
-    min-width: 450px;
+    min-width: 320px;
     height: 250px;
     display: flex;
     border-radius: 10px;
