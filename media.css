@@ -24,6 +24,20 @@
 
 @media (max-width:1080px){
 
+    #home .container-inicial{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #home .texto-inicial{   
+        width: 100%;
+        text-align: center;
+    }
+
+    #home .slide-inicial{
+        width: 100%;
+    }
+
 
     header .checkbtn{
         display: block;
