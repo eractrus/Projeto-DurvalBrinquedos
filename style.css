@@ -133,7 +133,7 @@ body{
 
 
 #home .slide-inicial{
-    width: 50%;
+    width: 49%;
     height: 100%;
     animation-name: slide-inicial;
     animation-duration: 20s;
