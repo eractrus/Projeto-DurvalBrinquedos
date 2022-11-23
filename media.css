@@ -22,44 +22,19 @@
 }
 
 
-@media (max-width:1080px){
+@media (max-width:780px){
 
-    #home .container-inicial{
-        height: 80vh;
-        padding: 40px 0;
+    .container-center{
+        width: 100%;   
     }
 
-
-    #home .container-inicial{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    #home .texto-inicial{   
-        width: 100%;
-        text-align: center;
-        z-index: 2;
-    }
-
-    #home .texto p{
-        margin: 10px auto;
-        text-align: center;
-        width: 340px;
-    }
-
-    #home .slide-inicial{
-        width: 100%;
-        height: 40vh;
-        margin-bottom: 20px;
-        z-index: 3;
-    }
-
+   /* menu */
 
     header .checkbtn{
         display: block;
         font-size: 25px;       
         cursor: pointer; 
-        margin-right: 50px;
+        margin-right: 15px;
     }
 
     #check{
@@ -69,42 +44,130 @@
     header nav{
         width: 100%;
         height: 100vh;
-        position: fixed;
-        top: -100%;
+        position: absolute;
+        top: -1100%;
+        left: 0;
         display: flex;
-        justify-content: flex-start;
         flex-direction: column;
+        gap: 0px ;
         background-color: var(--cordefundo);
         text-align: center;
-        gap: 0;   
-           
+           padding-top: 20px;
     }
 
     header nav a {
         color:white;
-        border: none;
+        width: 100%;
+        height: 60px;
+        margin: 0;
+        line-height: 60px;
+        border-bottom:none;
     }
 
-    header nav a:hover{
-        background-color: var(--corprincipal);
-        color: white;
-        border: none;
-    }
+    .navegacao a:hover{
+        color: var(--cordestaque1);
+        background-color: #1a2d72;
+        border-bottom:none;
+        transition: .4s;
 
+    }
+    
     #check:checked ~ nav{
-        top: 100px;
+        top: 88px;
         transition: .5s;
-        z-index: 4; 
+       
     }
 
-    #brinquedos main{
+
+    /* fim do menu */ 
+
+
+
+    /* bloco 1 */
+    
+    main #bloco1{
         width: 100%;
+        
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    
     }
 
-    #brinquedos .container-brinquedos{
-        width: 100%;
+    #home .texto-inicial{   
+        width: 90%;
+        margin: 0 auto;  padding: 0;
+      
+       
     }
-    #brinquedos .card-brinquedos{
+
+    #home .texto h2{
+        font-size: 2.8em;
         width: 100%;
+        padding: 0;
+        margin: 0 auto; 
+       }
+
+    #home .texto p{
+        width: 100%;
+        color: #030303;
+        padding: 0;
     }
+
+    #home .slide-inicial{
+        width: 100%;
+        height: 40vh ;
+        animation-name: slide-inicial;
+        animation-duration: 20s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
+    .btn-cta{
+        width: 100% ;
+        margin-top: 35px;
+        padding: 0;
+        text-align: center;
+    }
+    
+     .btn-cta a{
+        padding: 14px 28px;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .sobre .texto-sobre{
+        width: 100%;
+        margin: 0px auto;
+        font-size: .9em;
+        line-height: 35px;
+    }
+
+    .container-eventos{
+        width: 100%;
+        color: #020202;
+        background-color: var(--cordefundo);
+    }
+
+    #eventos{
+        width: 70%;
+        margin: auto;
+        padding: 0;
+        flex-direction: column;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    #eventos .card-eventos{
+        width: 90% ;  
+        max-width: none;   
+        min-width: none; 
+        
+    }
+
+
+    footer{
+      
+    }
+ 
 }
