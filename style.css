@@ -230,7 +230,7 @@ main #bloco1{
 .container-card-eventos .card-eventos:hover{
     transition: .5s;
     padding: 5px;
-    opacity: .5;
+    opacity: .8;
     cursor: pointer;
 }
 
@@ -246,13 +246,13 @@ main #bloco1{
 .container-card-eventos .card-eventos p{
     width: 100%;
     font-size: .7rem;
-    padding: 10px 14px;
+    padding: 20px 14px;
     }
 
 .container-eventos #btn-eventos{
     width: 100%;
     text-align: center;
-    padding: 45px 0;
+    padding: 50px 0;
 }
 
 
@@ -260,17 +260,21 @@ main #bloco1{
 
 footer{
     width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    padding: 30px 0;
+    padding:  0;
     background-color: var(--cordefundo);
+}
+
+#footer{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 footer .midias{
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     font-size: 30px;
 }
 
@@ -284,12 +288,6 @@ footer h5{
 }
 
 
-footer .direitos{
-    margin: 0 auto;
-    min-width: 150px;
-    padding: 15px;
-}
-
 footer p,i,h5{
     color: var(--corfonteclara);
 }
@@ -299,11 +297,16 @@ footer p,i,h5{
 /* Página de brinquedos */
 
 #brinquedos main{
-    width: 75%;
+    width: 100%;
     min-width: 320px;
     margin: 1px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
-    padding-bottom: 50px;
+    padding: 50px 0;
+}
+
+#brinquedos-container{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #brinquedos .container-brinquedos{
@@ -332,13 +335,14 @@ footer p,i,h5{
 
 
 #brinquedos .card-brinquedos img{
-    width: 100%;
+    width: 250px;
+    min-width: 200px;
     height: 100%;
     border-radius: 10px;
 }
 
 #brinquedos .card-brinquedos .direita{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

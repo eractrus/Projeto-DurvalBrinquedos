@@ -167,8 +167,8 @@
     }
 
 
-    footer{
-      
+    .container-eventos h2{
+        color: var(--corfonteclara);
     }
  
 }
