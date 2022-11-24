@@ -5,52 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Durval Brinquedos - agendamentos</title>
+    <script src="https://kit.fontawesome.com/da841ddc6b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body id="formulario">
+
+       
+    <header>
+
+        <div class="container-center" id="menu" >
+
+            <div class="logo">
+
+                <a href="index.html"> <img src="https://pps.whatsapp.net/v/t61.24694-24/298033305_781900942949130_3900797611216097594_n.jpg?ccb=11-4&oh=01_AdT4D9FTyaXDX6RzqbegXxcPz9ImhZ5plbSxgJgRGBMY3g&oe=637D62CE" alt="Logo marca"></a>
+
+            </div><!--Fim da div logo-->
+
+            <!--estrutura do menu responsivo-->
+
+            <input type="checkbox" name="check" id="check">
+
+            <label for="check" class="checkbtn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </label>
+
+            <!--Navegação menu-->
+
+            <nav class="navegacao">
+                <a href="index.html">Início</a>
+                <a href="brinquedos.html">Brinquedos</a>
+                <a class="btn-ativo" href="contato.html">Orçamento</a>
+            </nav>
+       
+    </div>
+
+    </header><!--fim da barra home-->
+
+    <div class="container-center" id="container-form">
+
+      
 
         <form 
         action="https://sheetdb.io/api/v1/51a3a5l64tlmf"
         method="post" 
         nome="51a3a5l64tlmf" 
         >
+            <div class="form1">
+                
+                <input type="text" name="data[Nome]" placeholder="Digite seu nome...">
 
-            <div class="logo">
-                <img src="https://pps.whatsapp.net/v/t61.24694-24/298033305_781900942949130_3900797611216097594_n.jpg?ccb=11-4&oh=01_AdT4D9FTyaXDX6RzqbegXxcPz9ImhZ5plbSxgJgRGBMY3g&oe=637D62CE" alt="Logo marca">
+                <input type="email" name="data[Email]" placeholder="Digite seu melhor e-mail...">
+
+                <input type="tel" name="data[Telefone]" placeholder="Digite seu telefone...">
+
             </div>
+
+            <label for="obs">Descrição</label>
+            <textarea name="descricao" id="data[obs]" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+
+            <input type="submit" value="Agendar">
+
+
+
             
-            <input type="text" name="data[Nome]" placeholder="Digite seu nome...">
-
-            <input type="email" name="data[Email]" placeholder="Digite seu melhor e-mail...">
-
-            <input type="tel" name="data[Telefone]" placeholder="Digite seu telefone...">
-
-            <input onclick="pagobrigado()" type="submit" value="Agendar">
         </form>
 
+    </div>
 
+        <footer>
+            
+            <div class="container-center" id="footer">
+    
+                <div class="midias">
+    
+                    <h5>Onde nos encontar ?</h5>
+    
+                <a href="https://www.facebook.com/durvalbrinquedos/" target="_blank"><i class="fa-brands fa-facebook"></i></a> 
+    
+                    <a href="https://www.instagram.com/durvalbrinquedos/?utm_medium=copy_link" target="_blank"><i class="fa-brands fa-instagram"></i></a>  
+    
+    
+                </div>
+    
+                <div class="direitos"><p>Direitos reservados</p></div>
+    
+            </div>    
+        </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script>
-            function pagobrigado(){
-                window.location="obrigado.html";
-            }
-        </script>
 
 </body>
 </html>

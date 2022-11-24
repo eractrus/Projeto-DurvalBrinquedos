@@ -67,7 +67,7 @@ header .logo img{
     transition: .4s;
 }
 
-#brinquedos .btn-ativo, #home .btn-ativo{
+#brinquedos .btn-ativo, #home .btn-ativo, #formulario .btn-ativo{
     border-bottom: 4px solid var(--cordestaque1);
     color: var(--cordestaque1);
 }
@@ -387,23 +387,21 @@ footer p,i,h5{
 
 /* formulário */
 
-#formulario{
-    height: 100vh;
-    background-color: #ccc;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+#container-form{
+    height: calc(100vh - 143.9px);
 }
 
+.form1{
+    display: flex;
+    justify-content: stretch;
+}
 
 #formulario form{
-    width: 500px;
-    height: 550px;
     margin: 0 auto;
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.256);
@@ -412,7 +410,7 @@ footer p,i,h5{
 #formulario input{
     width: 100%;
     height: 50px;
-    margin-bottom: 15px;
+    margin: 15px 10px;
     border-radius: 5px;
     padding-left:10px ;
     font-size: 16px;
@@ -428,20 +426,20 @@ footer p,i,h5{
     border: none;
 }
 
+label{
+    font-size: .8em;
+    margin-top: 15px;
+}
+
+#formulario textarea{
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+}
+
+
 #formulario input[type=submit]:hover{
     background-color: rgb(22, 0, 111);
 
 }
-
-#formulario .logo{
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-#formulario .logo img{
-  width: 150px;
-  height: 150px;
-  border-radius: 30%;
-}
-
 /* fim do formulario */
