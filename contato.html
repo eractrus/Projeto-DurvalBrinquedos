@@ -55,16 +55,16 @@
         >
             <div class="form1">
                 
-                <input type="text" name="data[Nome]" placeholder="Digite seu nome...">
+                <input type="text" name="data[Nome]" placeholder="Digite seu nome..." required maxlength="30">
 
-                <input type="email" name="data[Email]" placeholder="Digite seu melhor e-mail...">
+                <input type="email" name="data[Email]" placeholder="Digite seu melhor e-mail..." required maxlength="50">
 
-                <input type="tel" name="data[Telefone]" placeholder="Digite seu telefone...">
+                <input type="tel" name="data[Telefone]" placeholder="Digite seu telefone..." required maxlength="11">
 
             </div>
 
             <label for="#">Descrição</label>
-            <textarea name="descricao" id="data[observacao]" cols="30" rows="10" placeholder="Digite sua mensagem aqui..."></textarea>
+            <textarea name="descricao" id="data[observacao]" cols="30" rows="10" placeholder="Digite sua mensagem aqui..." required></textarea>
 
             <input type="submit" value="Agendar">
 
