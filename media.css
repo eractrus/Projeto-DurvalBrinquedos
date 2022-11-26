@@ -171,5 +171,15 @@
     .container-eventos h2{
         color: var(--corfonteclara);
     }
+
+
+    /* página brinquedos */ 
+
+
+    #brinquedos .card-brinquedos{
+        height: 230px;
+    }
+
+
  
 }
