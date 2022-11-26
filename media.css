@@ -52,7 +52,7 @@
         gap: 0px ;
         background-color: var(--cordefundo);
         text-align: center;
-           padding-top: 20px;
+        padding-top: 20px;
     }
 
     header nav a {
@@ -74,7 +74,7 @@
     
     #check:checked ~ nav{
         top: 88px;
-        transition: .5s;
+        transition: 1s;
        
     }
 
