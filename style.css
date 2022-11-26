@@ -63,7 +63,7 @@ header .logo img{
     height: 80px;
     border-radius: 10px;
     animation-name: animacao-esquerda;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: .1s;
     }
 
@@ -71,7 +71,7 @@ header .logo img{
     display: flex;
     gap: 50px;
     animation-name: animacao-esquerda;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: .1s;
 }
 
@@ -112,7 +112,7 @@ main #bloco1{
 #home .texto-inicial{   
     width: 49%;
     animation-name: animacao-esquerda;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: .1s;
 }
 
@@ -166,7 +166,7 @@ main #bloco1{
     width: 49%;
     height: 100%;
     animation-name: slide-inicial;
-    animation-duration: 20s;
+    animation-duration: 15s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
     
@@ -255,7 +255,7 @@ main #bloco1{
     padding: 20px;
     box-shadow: 0px 0px 8px rgb(0, 0, 0);
     animation-name: animacao-esquerda;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: .1s;
 
 }
@@ -359,7 +359,7 @@ footer p,i,h5{
     display: flex;
     flex-wrap: wrap;
     animation-name: animacao-esquerda;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-delay: .1s;
 }
 
