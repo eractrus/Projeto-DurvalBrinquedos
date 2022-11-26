@@ -53,6 +53,7 @@
         background-color: var(--cordefundo);
         text-align: center;
         padding-top: 20px;
+        z-index: 1;
     }
 
     header nav a {

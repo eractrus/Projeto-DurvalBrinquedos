@@ -62,17 +62,13 @@ header .logo img{
     width: 80px;
     height: 80px;
     border-radius: 10px;
-    animation-name: animacao-esquerda;
-    animation-duration: 1s;
-    animation-delay: .1s;
+   
     }
 
  header .navegacao{
     display: flex;
     gap: 50px;
-    animation-name: animacao-esquerda;
-    animation-duration: 1s;
-    animation-delay: .1s;
+   
 }
 
 .navegacao a{
