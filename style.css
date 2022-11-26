@@ -27,6 +27,21 @@
     padding: 2px 2%;
 }
 
+@keyframes animacao-esquerda{
+    0%{
+        position: relative;
+        left: -5%;
+        opacity: .1;
+    }
+
+  
+    100%{
+        position: relative;
+        left: 0%;
+        opacity: 1;
+    }
+}
+
 /* Home*/
 
 /* header */
@@ -47,11 +62,17 @@ header .logo img{
     width: 80px;
     height: 80px;
     border-radius: 10px;
-}
+    animation-name: animacao-esquerda;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    }
 
  header .navegacao{
     display: flex;
     gap: 50px;
+    animation-name: animacao-esquerda;
+    animation-duration: 2s;
+    animation-delay: .1s;
 }
 
 .navegacao a{
@@ -85,11 +106,14 @@ main #bloco1{
     height: calc(100vh - 109px);
     display: flex;
     align-items: center;
-   
+ 
 }
 
 #home .texto-inicial{   
     width: 49%;
+    animation-name: animacao-esquerda;
+    animation-duration: 2s;
+    animation-delay: .1s;
 }
 
 #home .texto-inicial .texto{
@@ -145,6 +169,7 @@ main #bloco1{
     animation-duration: 20s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+    
 }
 
 @keyframes slide-inicial{
@@ -154,6 +179,9 @@ main #bloco1{
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
+        position: relative;
+        left: -5%;
+        opacity: .1;
     }
 
     25%{
@@ -161,6 +189,9 @@ main #bloco1{
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
+        position: relative;
+        left: 0%;
+        opacity: 1;
     }
 
     50%{
@@ -175,6 +206,7 @@ main #bloco1{
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
+       
     }
 }
 
@@ -222,6 +254,9 @@ main #bloco1{
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    animation-name: animacao-esquerda;
+    animation-duration: 2s;
+    animation-delay: .1s;
 
 }
 
@@ -323,6 +358,9 @@ footer p,i,h5{
 #brinquedos-container{
     display: flex;
     flex-wrap: wrap;
+    animation-name: animacao-esquerda;
+    animation-duration: 2s;
+    animation-delay: .1s;
 }
 
 #brinquedos .container-brinquedos{
@@ -337,7 +375,7 @@ footer p,i,h5{
 #brinquedos .card-brinquedos{
     width: 500px;
     min-width: 320px;
-    height: 300px;
+    height: 200px;
     display: flex;
     border-radius: 10px;
     margin: 15px auto;
