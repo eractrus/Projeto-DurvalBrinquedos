@@ -79,80 +79,80 @@
 
            <div class="direita-form">
 
-                <form action="#">
+                <form action="https://sheetdb.io/api/v1/qggsreciofted"
+                name="Agendamento"
+                method="post">
 
                     <div class="box1">                    
-                        <input  type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="25">
+                        <input  type="text" name="data[nome]" id="none" placeholder="Digite seu nome" maxlength="25">
 
-                        <input type="text" name="endereco" id="endereco" placeholder="Digite o endereço do evento" maxlength="50">
+                        <input type="text" name="data[endereco]" id="endereco" placeholder="Digite o endereço do evento" maxlength="50">
 
-                        <input type="tel" id="phone" name="phone" maxlength="11" placeholder="Telefone (xx) x xxxx - xxxx">
+                        <input type="text" id="telefone" name="data[telefone]" maxlength="11" placeholder="Telefone (xx) x xxxx - xxxx">
 
                     </div>
 
                     <div class="box2">
 
-                        <input class="input-tamanho-1" type="text" name="cep" id="cep" placeholder="Digite o cep do evento" maxlength="8">
+                        <input class="input-tamanho-1" type="text" name="data[cep]" id="cep" placeholder="Digite o cep do evento" maxlength="8">
 
-                        <input class="input-tamanho-1" type="datetime-local" name="data" id="data">
+                        <input class="input-tamanho-1" type="datetime-local" name="data[data]" id="data">
 
                     </div>
 
                     <div class="option">
 
                         <div class="input-lista">
-                            <select name="Brinquedo 1">
-                                <option value="">--Nenhum--</option>
-                                <option value="">Guerra de cotonete</option>
-                                <option value="">Cama Elástica</option>
-                                <option value="">Escorrego</option>
-                                <option value="">Basquete duplo</option>
-                                <option value="">Túnel kid duplo</option>
+                            <select name="data[brinquedo1]" id="tipo" >
+                                <option value="nenhum">--Nenhum--</option>
+                                <option value="Guerra de cotonete">Guerra de cotonete</option>
+                                <option value="Cama Elástica">Cama Elástica</option>
+                                <option value="Escorrego">Escorrego</option>
+                                <option value="Basquete duplo">Basquete duplo</option>
+                                <option value="Túnel kid duplo">Túnel kid duplo</option>
                             </select>
                         </div>
 
                         <div class="input-lista">
-                            <select name="Brinquedo 1">
-                                <option value="">--Nenhum--</option>
-                                <option value="">Guerra de cotonete</option>
-                                <option value="">Cama Elástica</option>
-                                <option value="">Escorrego</option>
-                                <option value="">Basquete duplo</option>
-                                <option value="">Túnel kid duplo</option>
+                            <select name="data[brinquedo2]" >
+                                <option value="nenhum">--Nenhum--</option>
+                                <option value="Guerra de cotonete">Guerra de cotonete</option>
+                                <option value="Cama Elástica">Cama Elástica</option>
+                                <option value="Escorrego">Escorrego</option>
+                                <option value="Basquete duplo">Basquete duplo</option>
+                                <option value="Túnel kid duplo">Túnel kid duplo</option>
                             </select>
                         </div>
 
                         <div class="input-lista">
-                            <select name="Brinquedo 1">
-                                <option value="">--Nenhum--</option>
-                                <option value="">Guerra de cotonete</option>
-                                <option value="">Cama Elástica</option>
-                                <option value="">Escorrego</option>
-                                <option value="">Basquete duplo</option>
-                                <option value="">Túnel kid duplo</option>
+                            <select name="data[brinquedo3]" >
+                                <option value="nenhum">--Nenhum--</option>
+                                <option value="Guerra de cotonete">Guerra de cotonete</option>
+                                <option value="Cama Elástica">Cama Elástica</option>
+                                <option value="Escorrego">Escorrego</option>
+                                <option value="Basquete duplo">Basquete duplo</option>
+                                <option value="Túnel kid duplo">Túnel kid duplo</option>
                             </select>
                         </div>
                         <div class="input-lista">
-                            <select name="Brinquedo 1">
-                                <option value="">--Nenhum--</option>
-                                <option value="">Guerra de cotonete</option>
-                                <option value="">Cama Elástica</option>
-                                <option value="">Escorrego</option>
-                                <option value="">Basquete duplo</option>
-                                <option value="">Túnel kid duplo</option>
+                            <select name="data[brinquedo4]" >
+                                <option value="nenhum">--Nenhum--</option>
+                                <option value="Guerra de cotonete">Guerra de cotonete</option>
+                                <option value="Cama Elástica">Cama Elástica</option>
+                                <option value="Escorrego">Escorrego</option>
+                                <option value="Basquete duplo">Basquete duplo</option>
+                                <option value="Túnel kid duplo">Túnel kid duplo</option>
                             </select>
                         </div>
 
                     </div><!--Fim da div option-->
 
-                    <label for="comentario">Observação</label>
-                    <textarea name="comentario" id="comentario" cols="30" rows="8" placeholder="Digite uma observação (Opcional)"></textarea>
+                    <textarea name="data[comentario]" id="comentario" cols="30" rows="8" placeholder="Digite uma observação (Opcional)"></textarea>
 
-                    <input type="submit" name="enviar" id="enviar" value="Agendar">
-
+                    <button type="submit" name="submit">Agendar</button>
 
                 </form>
-
+                    
            </div><!--fim da direita form-->
 
 
