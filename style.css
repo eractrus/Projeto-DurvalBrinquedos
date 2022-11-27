@@ -475,6 +475,11 @@ input{
     margin: 25px 0;
 }
 
+.esquerda ol{
+    padding: 10px;
+}
+
+
 .esquerda li{
     padding: 15px 0px;
     color: var(--corfonteclara);
