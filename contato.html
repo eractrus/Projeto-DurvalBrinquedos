@@ -45,56 +45,120 @@
 
     </header><!--fim da barra home-->
 
-    <div class="container-center" id="container-form">
 
-      
+    <main>
 
-        <form 
-        action="https://sheetdb.io/api/v1/51a3a5l64tlmf"
-        method="post" 
-        nome="51a3a5l64tlmf" 
-        >
-            <div class="form1">
-                
-                <input type="text" name="data[Nome]" placeholder="Digite seu nome..." required maxlength="30">
-
-                <input type="email" name="data[Email]" placeholder="Digite seu melhor e-mail..." required maxlength="50">
-
-                <input type="tel" name="data[Telefone]" placeholder="Digite seu telefone..." required maxlength="12" minlength="11">
-
-            </div>
-
-            <textarea name="descricao" id="data[observacao]" cols="30" rows="10" placeholder="Digite sua mensagem aqui..." required></textarea>
-
-            <input type="submit" value="Agendar">
-
-
+        <div class="container-center" id="container-form" >
 
             
-        </form>
+           <div class="esquerda">
 
-    </div>
-
-        <footer>
-            
-            <div class="container-center" id="footer">
-    
-                <div class="midias">
-    
-                    <h5>Onde nos encontar ?</h5>
-    
-                <a href="https://www.facebook.com/durvalbrinquedos/" target="_blank"><i class="fa-brands fa-facebook"></i></a> 
-    
-                    <a href="https://www.instagram.com/durvalbrinquedos/?utm_medium=copy_link" target="_blank"><i class="fa-brands fa-instagram"></i></a>  
-    
-    
+                <div>
+                    <h1>Seja bem - vindo </h1>
                 </div>
-    
-                <div class="direitos"><p>Direitos reservados</p></div>
-    
-            </div>    
-        </footer>
 
+
+                <div>
+
+                    <p>Passo a passo para agendar seu brinquedo</p>
+
+                    <ol >
+                        <li>Digite seu nome com sobrenome</li>
+                        <li>Digite o endereço do evento</li>
+                        <li>Digite seu telefone (Whatsapp)</li>
+                        <li>Digite o cep do evento</li>
+                        <li>Insira a data e horário do evento</li>
+                        <li>Escolha de 1 a quatro opções de brinquedos</li>
+                        <li>Insira alguma observação</li>
+                    </ol>
+
+                </div>
+
+
+            </div><!--Fim do container da esqueda do formulário-->
+
+           <div class="direita-form">
+
+                <form action="#">
+
+                    <div class="box1">                    
+                        <input  type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="25">
+
+                        <input type="text" name="endereco" id="endereco" placeholder="Digite o endereço do evento" maxlength="50">
+
+                        <input type="tel" id="phone" name="phone" maxlength="11" placeholder="Telefone (xx) x xxxx - xxxx">
+
+                    </div>
+
+                    <div class="box2">
+
+                        <input class="input-tamanho-1" type="text" name="cep" id="cep" placeholder="Digite o cep do evento" maxlength="8">
+
+                        <input class="input-tamanho-1" type="datetime-local" name="data" id="data">
+
+                    </div>
+
+                    <div class="option">
+
+                        <div class="input-lista">
+                            <select name="Brinquedo 1">
+                                <option value="">--Nenhum--</option>
+                                <option value="">Guerra de cotonete</option>
+                                <option value="">Cama Elástica</option>
+                                <option value="">Escorrego</option>
+                                <option value="">Basquete duplo</option>
+                                <option value="">Túnel kid duplo</option>
+                            </select>
+                        </div>
+
+                        <div class="input-lista">
+                            <select name="Brinquedo 1">
+                                <option value="">--Nenhum--</option>
+                                <option value="">Guerra de cotonete</option>
+                                <option value="">Cama Elástica</option>
+                                <option value="">Escorrego</option>
+                                <option value="">Basquete duplo</option>
+                                <option value="">Túnel kid duplo</option>
+                            </select>
+                        </div>
+
+                        <div class="input-lista">
+                            <select name="Brinquedo 1">
+                                <option value="">--Nenhum--</option>
+                                <option value="">Guerra de cotonete</option>
+                                <option value="">Cama Elástica</option>
+                                <option value="">Escorrego</option>
+                                <option value="">Basquete duplo</option>
+                                <option value="">Túnel kid duplo</option>
+                            </select>
+                        </div>
+                        <div class="input-lista">
+                            <select name="Brinquedo 1">
+                                <option value="">--Nenhum--</option>
+                                <option value="">Guerra de cotonete</option>
+                                <option value="">Cama Elástica</option>
+                                <option value="">Escorrego</option>
+                                <option value="">Basquete duplo</option>
+                                <option value="">Túnel kid duplo</option>
+                            </select>
+                        </div>
+
+                    </div><!--Fim da div option-->
+
+                    <label for="comentario">Observação</label>
+                    <textarea name="comentario" id="comentario" cols="30" rows="8" placeholder="Digite uma observação (Opcional)"></textarea>
+
+                    <input type="submit" name="enviar" id="enviar" value="Agendar">
+
+
+                </form>
+
+           </div><!--fim da direita form-->
+
+
+        </div><!--fim do ID container-form-->
+
+    </main>
 
 </body>
 </html>
