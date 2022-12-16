@@ -176,9 +176,27 @@
 
 
     #brinquedos .card-brinquedos{
-        height: 230px;
+        height: 185px;
+        margin: 25px auto;
     }
 
+    #brinquedos .card-brinquedos .direita div{
+        width: 100%;
+        text-align: center;
+    }
 
- 
+    #brinquedos .card-brinquedos .direita .titulo-card{
+        font-size: 1.1em ;
+    }
+
+    #brinquedos .card-brinquedos .direita .legenda-card{
+        font-size: 13px;
+     
+    }
+
+    #brinquedos .card-brinquedos .direita a{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
 }
