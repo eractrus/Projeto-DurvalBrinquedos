@@ -176,13 +176,20 @@
 
 
     #brinquedos .card-brinquedos{
-        height: 190px;
         margin: 25px auto;
     }
 
+    #brinquedos .card-brinquedos .direita{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     #brinquedos .card-brinquedos .direita div{
         width: 100%;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #brinquedos .card-brinquedos .direita .titulo-card{
@@ -195,7 +202,6 @@
     }
 
     #brinquedos .card-brinquedos .direita a{
-        margin-bottom: 12px;
         width: 100%;
     }
 
