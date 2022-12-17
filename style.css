@@ -21,6 +21,10 @@
     --font1:'Roboto', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container-center{
     width: 80%;
     margin: 0 auto;
