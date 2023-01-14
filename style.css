@@ -372,6 +372,14 @@ footer .direitos{
     padding: 10px 0;
 }
 
+.direitos a{
+    color: var(--corfonteclara);
+}
+
+.direitos a:hover{
+    color: var(--cordestaque1);
+}
+
 /* Página de brinquedos */
 
 #brinquedos main{
