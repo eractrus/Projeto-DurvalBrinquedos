@@ -54,6 +54,10 @@ html{
 header{
     width: 100%;
     background-color: var(--cordefundo);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 header #menu{
@@ -103,10 +107,10 @@ header .logo img{
 /* bloco 1 */ 
 
 main #bloco1{
-    height: calc(100vh - 109px);
+    height: 100vh;
     display: flex;
     align-items: center;
- 
+    padding-top:50px ;
 }
 
 #home .texto-inicial{   
@@ -152,9 +156,6 @@ main #bloco1{
     color: var(--corpreto);
 }
 
-
-
-
  .btn-cta a:hover{
     transition: .4s;
     background-color: #ffd862fb;
@@ -164,7 +165,7 @@ main #bloco1{
 
 #home .slide-inicial{
     width: 49%;
-    height: 100%;
+    height: 90%;
     animation-name: slide-inicial;
     animation-duration: 15s;
     animation-direction: alternate;
@@ -218,7 +219,7 @@ main #bloco1{
 }
 
  #sobre{
-    padding: 50px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -385,8 +386,34 @@ footer .direitos{
 #brinquedos main{
     width: 100%;
     padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.location{
+    width: 72%;
+    height: 50px;
+    margin: 70px 0 20px 0;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px #0202023b;
+
+}
+
+.location ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: .9em;
+}
+
+.location ul li a:hover{
+    color: var(--cordestaque2);
+    text-decoration: underline;
+}
 #brinquedos-container{
     display: flex;
     flex-wrap: wrap;
